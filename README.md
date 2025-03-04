@@ -7,23 +7,18 @@ This project implements **Market Basket Analysis (MBA)** and **RFM (Recency, Fre
 ```
 market-basket-analysis/
 │── data/
-│   ├── online_retail.csv  # Dataset
-│
+│   ├── retail_data.csv
 │── notebooks/
-│   ├── data_preprocessing.ipynb  # Cleaning and preprocessing
-│   ├── market_basket_analysis.ipynb  # Applying MBA (Apriori algorithm)
-│   ├── rfm_analysis.ipynb  # Customer segmentation using RFM
-│
+│   ├── data_exploration.ipynb
 │── src/
-│   ├── data_loader.py  # Loads and preprocesses data
-│   ├── mba_model.py  # Apriori-based Market Basket Analysis
-│   ├── rfm_model.py  # RFM segmentation implementation
-│
-│── app/
-│   ├── app.py  # Flask-based web interface for recommendations
-│
+│   ├── preprocess.py
+│   ├── apriori_model.py
+│   ├── rfm_analysis.py
+│   ├── visualization.py
+│── main.py
+│── requirements.txt
 │── README.md
-│── requirements.txt  # Dependencies
+
 ```
 
 ## 🔧 Installation & Setup
